@@ -12,7 +12,7 @@ site_name = "Documentation"
 
 nav = [
   { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+  { "Fundamentals" = "Fundamentals.md" },
 ]
 
 # extra_css = ["stylesheets/extra.css"]
@@ -21,7 +21,7 @@ nav = [
 [project.theme]
 # variant = "classic"
 # custom_dir = "overrides"
-# favicon = "images/favicon.png"
+#favicon = "images/favicon.png"
 language = "en"
 features = [
   "announce.dismiss",
@@ -116,3 +116,9 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
+[project.extra]
+alternate = [
+  { name = "English", link = "/", lang = "en" },
+  { name = "Português", link = "/fundamentals/", lang = "pt-br" },
+]
